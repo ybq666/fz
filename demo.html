@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>功能演示</title>
+
+    <meta name="keywords" content="AI,Fashion,AIFashion,FashionAI,时尚,智能时尚,人工智能,智能试衣镜,虚拟试衣,以图搜图,智能标签,自动打标,图像识别,搭配推荐,服饰标签">
+    <meta name="description" content="AIFashion，用 AI 赋能 Fashion，为时尚行业提供一站式人工智能技术与数据服务。凭借顶尖的人工智能算法和长期积累的海量行业数据，打造 FashionAI，专注人工智能在时尚领域的应用落地。">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://www.aifashion.com/favicon.ico">
+
+    <!-- CSS Global -->
+
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+
+    <link rel="stylesheet" href="static/css/fontawesome-all.min.css">
+
+    <link rel="stylesheet" href="static/css/animate.min.css">
+
+    <link rel="stylesheet" href="static/css/front.css">
+
+
+    <!-- CSS Local -->
+
+    <link rel="stylesheet" href="static/css/custombox.min.css">
+
+    <link rel="stylesheet" href="static/css/hs.megamenu.css">
+
+
+    <!-- Script Global -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?2db4eef04ece0a6fdc5e905ba90fd627";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+
+
+
+<body>
+
+    <!-- Skippy -->
+    <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+        <div class="container">
+            <span class="u-skiplink-text">Skip to main content</span>
+        </div>
+    </a>
+    <!-- End Skippy -->
+
+    <!-- ========== HEADER ========== -->
+    <header id="header" class="u-header u-header--sticky-top" data-header-fix-moment="500" data-header-fix-effect="slide">
+        <div class="u-header__section">
+            <div id="logoAndNav" class="container">
+                <!-- Nav -->
+                <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+                    <!-- Logo -->
+                    <a class="navbar-brand u-header__navbar-brand" href="index.html" aria-label="Front">
+                        <img src="static/picture/logo.png" alt="Logo">
+                    </a>
+                    <!-- End Logo -->
+
+                    <!-- Responsive Toggle Button -->
+                    <button type="button" class="navbar-toggler btn u-hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                        <span id="hamburgerTrigger" class="u-hamburger__box">
+                            <span class="u-hamburger__inner"></span>
+                        </span>
+                    </button>
+                    <!-- End Responsive Toggle Button -->
+
+                    <!-- Navigation -->
+                    <div id="navBar" class="collapse navbar-collapse py-0">
+                        <ul class="navbar-nav u-header__navbar-nav ml-lg-auto">
+                            <!-- Home -->
+                            <li class="nav-item">
+                                <a class="nav-link u-header__nav-link" href="index.html">
+                                    首页
+                                </a>
+                            </li>
+
+                            <!-- End Home -->
+
+                            <!-- Solutions -->
+                            <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
+                                <a id="homeMegaMenu" class="nav-link u-header__nav-link" href="javascript:;" aria-haspopup="true" aria-expanded="false">
+                                    解决方案
+                                    <span class="fa fa-angle-down u-header__nav-link-icon"></span>
+                                </a>
+
+                                <!-- Solutions - Mega Menu -->
+                                <div class="hs-mega-menu u-header__sub-menu w-100 u-header__mega-menu-wrapper-v2" aria-labelledby="homeMegaMenu">
+                                    <div class="row p-0 mr-0">
+                                        <div class="col-lg-6 pr-0">
+                                            <!-- Banner Image -->
+                                            <div class="d-none d-lg-block u-header__banner-v1" data-bg-img-src="/assets/img/750x750/img1.jpg">
+                                                <div class="w-100 text-center u-header__banner-v1-content u-content-centered-y p-4">
+                                                    <div class="mb-4">
+                                                        <strong class="d-block u-header__banner-v1-title mb-2">AI + Fashion</strong>
+                                                        <span class="u-header__banner-v1-text">AIFashion 为时尚行业各个领域提供一站式 AI 技术服务</span>
+                                                    </div>
+                                                    <a class="btn btn-primary u-btn-primary btn-sm transition-3d-hover" href="solutions.html">了解更多<span class="fa fa-angle-right ml-2"></span></a>
+                                                </div>
+                                            </div>
+                                            <!-- End Banner Image -->
+                                        </div>
+
+                                        <div class="col-lg-6 u-header__mega-menu-wrapper-v3">
+                                            <div class="row u-header__mega-menu-wrapper-v1">
+                                                <div class="col-sm-6">
+                                                    <a class="text-dark" href="e-commerce.html"><strong class="d-block mb-2">服饰电商</strong></a>
+
+                                                    <!-- Links -->
+                                                    <ul class="list-unstyled mb-4">
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="e-commerce.html#visual-search-recommendation-and-personalization">基于视觉的搜索、推荐与个性化</a></li>
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="e-commerce.html#effective-product-content-management">电商后台智能运营</a></li>
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="e-commerce.html#ugc-tagging">UGC 评分与标注</a></li>
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="e-commerce.html#smart-inventory-management">智能库存管理</a></li>
+                                                    </ul>
+                                                    <!-- End Links -->
+
+                                                    <a class="text-dark" href="content-and-media.html"><strong class="d-block mb-2">时尚内容媒体</strong></a>
+
+                                                    <!-- Links -->
+                                                    <ul class="list-unstyled mb-4">
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="content-and-media.html#smart-media">智能媒体</a></li>
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="content-and-media.html#content-marketing">基于视觉的内容营销</a></li>
+                                                    </ul>
+                                                    <!-- End Links -->
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <a class="text-dark" href="offline-retail.html"><strong class="d-block mb-2">线下服装零售</strong></a>
+
+                                                    <!-- Links -->
+                                                    <ul class="list-unstyled mb-4">
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="offline-retail.html#personal-stylist-assistant">个性化推荐与导购</a></li>
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="offline-retail.html#smart-dressing-mirror">智能试衣 <span class="badge badge-success ml-1">New</span></a></li>
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="offline-retail.html#customer-insight">时尚客流统计</a></li>
+                                                    </ul>
+                                                    <!-- End Links -->
+
+                                                    <a class="text-dark" href="designer-and-editor.html"><strong class="d-block mb-2">时尚设计与编辑</strong></a>
+
+                                                    <!-- Links -->
+                                                    <ul class="list-unstyled mb-4">
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="designer-and-editor.html#fashion-search-engine">时尚搜索引擎 <span class="badge badge-success ml-1">New</span></a></li>
+                                                        <li><a class="nav-link u-list__link py-2 px-0" href="designer-and-editor.html#fashion-business-intelligence">时尚潮流 BI</a></li>
+                                                    </ul>
+                                                    <!-- End Links -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Solutions - Mega Menu -->
+                            </li>
+                            <!-- End Solutions -->
+
+                            <!-- Technologies -->
+                            <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="right">
+                                <a id="worksMegaMenu" class="nav-link u-header__nav-link" href="javascript:;" aria-haspopup="true" aria-expanded="false">
+                                    核心技术
+                                    <span class="fa fa-angle-down u-header__nav-link-icon"></span>
+                                </a>
+
+                                <!-- Works - Mega Menu -->
+                                <div class="hs-mega-menu w-100 u-header__sub-menu u-header__mega-menu-wrapper-v1" aria-labelledby="worksMegaMenu">
+                                    <div class="row">
+
+                                        <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                                            <strong class="d-block mb-2">大数据</strong>
+
+                                            <!-- Links -->
+                                            <ul class="list-unstyled u-list">
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-search-engine.html">时尚搜索引擎</a></li>
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-trend-analysis.html">时尚趋势分析</a></li>
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-visual-popularity-analysis.html">服饰视觉潮流分析</a></li>
+                                            </ul>
+                                            <!-- End Links -->
+                                        </div>
+                                        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                                            <strong class="d-block mb-2">图像 & 视觉</strong>
+
+                                            <!-- Links -->
+                                            <ul class="list-unstyled u-list">
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-detection-segmentation-and-recognition.html">服饰检测、分割与识别</a></li>
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-attribute-analysis.html">服饰时尚属性分析</a></li>
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-naming-and-caption.html">服饰命名和描述生成</a></li>
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-recommendation-and-search.html">服饰相似搜索和搭配推荐</a></li>
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-OCR.html">服饰标签票据 OCR</a></li>
+                                            </ul>
+                                            <!-- End Links -->
+                                        </div>
+
+                                        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                                            <strong class="d-block mb-2">语言 & 交互</strong>
+
+                                            <!-- Links -->
+                                            <ul class="list-unstyled u-list">
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-machine-translation.html">时尚领域机器翻译</a></li>
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-voice-assistant.html">时尚语音交互助手</a></li>
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="fashion-knowledge-graph.html">时尚知识库</a></li>
+                                            </ul>
+                                            <!-- End Links -->
+                                        </div>
+
+
+                                        <div class="col-sm-6 col-lg-3">
+                                            <strong class="d-block mb-2">硬件 & 终端</strong>
+
+                                            <!-- Links -->
+                                            <ul class="list-unstyled u-list">
+                                                <li><a class="nav-link u-list__link py-2 px-0" href="tx2-4k.html">基于 TX2 的硬件方案</a></li>
+                                            </ul>
+                                            <!-- End Links -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Technologies - Mega Menu -->
+                            </li>
+                            <!-- End Technologies -->
+
+                            <!-- Demo -->
+                            <li class="nav-item">
+                                <a class="nav-link u-header__nav-link" href="">
+                                    功能演示
+                                </a>
+                            </li>
+                            <!-- End Demo -->
+
+                            <!-- Blog -->
+                            <!-- <li class="nav-item">
+                            <a class="nav-link u-header__nav-link" href="/news.html">
+                                新闻中心
+                            </a>
+                        </li> -->
+                            <!-- End Blog -->
+
+                            <!-- About - Link -->
+                            <li class="nav-item">
+                                <a class="nav-link u-header__nav-link" href="about-us.html">
+                                    关于我们
+                                </a>
+                            </li>
+                            <!-- End About - Link -->
+                            <!-- <li class="nav-item">
+                            <a class="nav-link u-header__nav-link" href="https://console.aifashion.com/">
+                                开放平台
+                            </a>
+                        </li> -->
+                            <!-- Button -->
+                            <li class="nav-item d-none d-md-inline-block pl-3 pr-0">
+                                <a class="btn btn-sm btn-primary u-btn-primary transition-3d-hover" href="https://jinshuju.net/f/WaGw3d?x_field_1=aifashion" target="_blank">
+                                    申请试用
+                                </a>
+                            </li>
+                            <!-- End Button -->
+                        </ul>
+                    </div>
+                    <!-- End Navigation -->
+                </nav>
+                <!-- End Nav -->
+            </div>
+        </div>
+    </header>
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" role="main">
+        <!-- Hero Section -->
+        <div class="position-relative">
+            <div class="container u-space-3-top u-space-3-bottom u-space-5-top--md u-space-4-bottom--md">
+                <div class="w-md-80 w-lg-75 text-center mx-auto">
+                    <h1 class="text-primary font-weight-medium mb-4">AIFashion 核心技术演示</h1>
+                    <p class="lead mb-0">通过网页或者微信小程序试用 AIFashion 核心技术，体验 AI + Fashion 的魔力</p>
+                </div>
+            </div>
+
+            <!-- SVG Background Shapes -->
+            <figure class="w-75 u-content-centered z-index-minus-1">
+                <svg preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1506.3 578.7" style="enable-background:new 0 0 1506.3 578.7;" xml:space="preserve">
+                    <path class="u-fill-warning" d="M45,91.6L45,91.6c-1.2-1.2-1.2-3.1,0-4.3l9.1-9.1c1.2-1.2,3.1-1.2,4.3,0h0c1.2,1.2,1.2,3.1,0,4.3l-9.1,9.1
+            C48.2,92.8,46.2,92.8,45,91.6z"></path>
+                    <path class="u-fill-warning" d="M58.4,91.6L58.4,91.6c-1.2,1.2-3.1,1.2-4.3,0L45,82.5c-1.2-1.2-1.2-3.1,0-4.3h0c1.2-1.2,3.1-1.2,4.3,0l9.1,9.1
+            C59.6,88.5,59.6,90.4,58.4,91.6z"></path>
+                    <path class="u-fill-info" d="M1041.3,403.1l5.1,19.1c0.7,2.6,4,3.5,5.9,1.6l14-14c1.9-1.9,1-5.2-1.6-5.9l-19.1-5.1
+            C1043,398,1040.5,400.4,1041.3,403.1z"></path>
+                    <path class="u-fill-success" d="M380.6,577.8l-12.2-12.2c-1.2-1.2-1.2-3.1,0-4.3l12.2-12.2c1.2-1.2,3.1-1.2,4.3,0l12.2,12.2
+            c1.2,1.2,1.2,3.1,0,4.3l-12.2,12.2C383.8,579,381.8,579,380.6,577.8z"></path>
+                    <circle class="u-fill-success" cx="1494.3" cy="353.5" r="12"></circle>
+                    <path class="u-fill-danger" d="M992,21.5h-15.9c-1.5,0-2.8-1.3-2.8-2.8V2.8c0-1.5,1.3-2.8,2.8-2.8H992c1.5,0,2.8,1.3,2.8,2.8v15.9
+            C994.8,20.2,993.5,21.5,992,21.5z"></path>
+                    <path class="u-fill-primary" d="M19.3,310.2l-17,4.6c-2.3,0.6-3.1,3.6-1.4,5.3l12.4,12.4c1.7,1.7,4.7,0.9,5.3-1.4l4.6-17
+            C23.8,311.7,21.7,309.6,19.3,310.2z"></path>
+                    <circle class="u-fill-none u-stroke-white" stroke-width="3" stroke-miterlimit="10" cx="1236.8" cy="120" r="8.5"></circle>
+                </svg>
+            </figure>
+            <!-- End SVG Background Shapes -->
+        </div>
+        <!-- End Hero Section -->
+
+        <!-- Demo Section -->
+        <div class="position-relative u-gradient-half-warning-v1">
+            <div class="container position-relative z-index-2">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Hire Us -->
+                        <div class="d-flex align-items-center u-space-2 min-height-380 pr-lg-7">
+                            <div class="d-block">
+                                <h2 class="text-white">在线演示</h2>
+                                <p class="u-text-light mb-4">点击按钮，进入演示页面进行在线功能演示。</p>
+                                <a class="btn text-primary u-btn-white u-btn-wide transition-3d-hover" href="https://jinshuju.net/f/WaGw3d?x_field_1=aifashion" data-overlay-color="#111722">申请试用</a>
+                                <div id="showMsgModal" class="js-show-code-window rounded u-modal-window" style="width: 480px;">
+                                    <button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();">
+                                        <span class="fas fa-times"></span>
+                                    </button>
+
+                                    <div class="u-shopping-cart-title-wrapper">
+                                        <strong>网页演示即将上线，请先体验小程序演示</strong>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <img src="static/picture/demo_weapp.jpg">
+                                    </div>
+
+                                    <div class="u-shopping-cart-subtotal-bg">
+                                        <div class="mb-3">
+                                            <strong>微信扫码</strong>
+                                            <span class="d-block">进入 AIFashion 演示</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-50 position-absolute-bottom-right-0 mr-7">
+                            <img src="static/picture/hire-us-flat-concept-illustration.svg" alt="SVG Illustration">
+                        </div>
+                        <!-- End Hire Us -->
+                    </div>
+
+                    <div class="col-lg-6">
+                        <!-- Contact Us -->
+                        <div class="d-flex align-items-center u-space-2 min-height-380 pl-lg-7">
+                            <div class="d-block">
+                                <h2 class="text-white">小程序演示</h2>
+                                <p class="u-text-light mb-4">扫描二维码，通过微信小程序在手机上进行功能演示。</p>
+                                <a class="btn text-warning u-btn-white u-btn-wide transition-3d-hover" href="https://jinshuju.net/f/WaGw3d?x_field_1=aifashion" data-overlay-color="#111722">申请试用</a>
+                                <div id="showCodeModal" class="js-show-code-window rounded u-modal-window" style="width: 480px;">
+                                    <button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();">
+                                        <span class="fas fa-times"></span>
+                                    </button>
+
+                                    <div class="u-shopping-cart-title-wrapper">
+                                        <strong>打开微信，扫描二维码</strong>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <img src="static/picture/demo_weapp.jpg">
+                                    </div>
+
+                                    <div class="u-shopping-cart-subtotal-bg">
+                                        <div class="mb-3">
+                                            <strong>或搜索</strong>
+                                            <span class="d-block">AIFashion 演示</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-50 position-absolute-bottom-right-0">
+                            <img src="static/picture/pushing-boundries-flat-concept-illustration.svg" alt="SVG Illustration">
+                        </div>
+                        <!-- End Demo -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 u-gradient-half-primary-v1 position-absolute-top-left-0 min-height-380"></div>
+        </div>
+        <!-- End Contact Section -->
+    </main>
+    <!-- ========== END MAIN CONTENT ========== -->
+
+    <!-- Go to Top -->
+    <a class="js-go-to u-go-to" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
+        <span class="fa fa-arrow-up u-go-to__inner"></span>
+    </a>
+    <!-- End Go to Top -->
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-white">
+        <div class="container u-space-3">
+            <div class="row justify-content-lg-between">
+                <div class="col-lg-4 d-flex align-items-start flex-column mb-7 mb-lg-0">
+                    <!-- Logo -->
+                    <a class="d-inline-block mb-lg-auto mb-3" href="#" aria-label="Front">
+                        <img src="static/picture/logo.png" alt="Logo" style="width: 60px;">
+                    </a>
+                    <!-- End Logo -->
+
+                    <p class="small mb-0">&copy; AIFashion 2017-2019 极睿科技<br><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17058102号-5</a></p>
+                </div>
+
+                <div class="col-sm-4 col-lg-2 mb-4 mb-lg-0">
+                    <!-- Title -->
+                    <h3 class="h6">
+                        <strong>网站导航</strong>
+                    </h3>
+                    <!-- End Title -->
+
+                    <!-- List -->
+                    <ul class="list-unstyled u-list u-list--light">
+                        <li><a class="u-list__link" href="index.html">首页</a></li>
+                        <li><a class="u-list__link" href="">功能演示</a></li>
+                        <li><a class="u-list__link" href="news.html">新闻中心</a></li>
+                        <li><a class="u-list__link" href="about-us.html">关于我们</a></li>
+                    </ul>
+                    <!-- End List -->
+                </div>
+
+                <div class="col-sm-4 col-lg-2 mb-4 mb-lg-0">
+                    <!-- Title -->
+                    <h3 class="h6">
+                        <strong>了解更多</strong>
+                    </h3>
+                    <!-- End Title -->
+
+                    <!-- List -->
+                    <ul class="list-unstyled u-list u-list--light">
+                        <li><a class="u-list__link" href="https://infimind.com">极睿科技</a></li>
+                        <li><a class="u-list__link" href="https://console.aifashion.com">开放平台</a></li>
+                        <li><a class="u-list__link" href="https://developer.aifashion.com/docs">开发者资源</a></li>
+                    </ul>
+                    <!-- End List -->
+                </div>
+
+                <div class="col-sm-4 col-lg-2 mb-4 mb-lg-0">
+                    <!-- Title -->
+                    <h3 class="h6">
+                        <strong>联系我们</strong>
+                    </h3>
+                    <!-- End Title -->
+
+                    <!-- Contacts -->
+                    <address class="u-list--light mb-0">
+                        <a class="u-list__link" href="#">商务: 13605159903</a>
+                        <a class="u-list__link" href="mailto:hr@infimind.com">求职: hr@infimind.com</a>
+                        <a class="u-list__link" href="mailto:pr@infimind.com">媒体: pr@infimind.com</a>
+                    </address>
+                    <!-- End Contacts -->
+                </div>
+
+                <div class="col-sm-4 col-lg-2">
+                    <!-- Title -->
+                    <h3 class="h6">
+                        <strong>办公地址</strong>
+                    </h3>
+                    <!-- End Title -->
+
+                    <!-- Address -->
+                    <address class="u-list--light mb-0">
+                        <li class="u-list__link">北京市朝阳区华彩大厦701</li>
+                        <a class="u-list__link" target="_blank" href="https://j.map.baidu.com/2e/xM6">查看地图</a>
+                    </address>
+                    <!-- End Address -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== END FOOTER ========== -->
+
+
+
+    <script src="static/js/jquery.min.js"></script>
+
+    <script src="static/js/jquery-migrate.min.js"></script>
+
+    <script src="static/js/bootstrap.min.js"></script>
+
+
+    <script src="static/js/hs.megamenu.js"></script>
+
+
+    <script src="static/js/custombox.min.js"></script>
+
+
+    <script src="static/js/hs.core.js"></script>
+
+
+    <script src="static/js/hs.header.js"></script>
+
+
+    <script src="static/js/hs.show-animation.js"></script>
+
+
+    <script src="static/js/hs.modal-window.js"></script>
+
+
+    <script src="static/js/hs.go-to.js"></script>
+
+
+    <!-- JS Plugins Init. -->
+    <script>
+        $(window).on('load', function() {
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+                event: 'hover',
+                pageContainer: $('.container'),
+                breakpoint: 767,
+                hideTimeOut: 0
+            });
+        });
+
+        $(document).on('ready', function() {
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#header'));
+
+            // initialization of autonomous popups
+            $.HSCore.components.HSModalWindow.init('[data-modal-target]', '.js-show-code-window', {
+                autonomous: true
+            });
+
+            // initialization of go to
+            $.HSCore.components.HSGoTo.init('.js-go-to');
+        });
+    </script>
+</body>
+
+</html>
